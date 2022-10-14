@@ -30,6 +30,10 @@ a:hover {
     background: url(../img/logo.png) no-repeat;
 }
 
+#logo h1 {
+    float: left;
+}
+
 /* Barra de navegação 
 ------------------------*/
 
@@ -57,4 +61,81 @@ nav ul li a:link {
 
 nav ul li a:hover {
     border-bottom: 1px solid #535858;
+}
+
+/*   Principal ]
+-----------------------*/
+
+#conteudo {
+    width: 710px;
+    float: left;
+    background: blue;
+}
+
+aside {
+    width: 350px;
+    float: right;
+    background: #ebe7dd;
+    padding-bottom: 30px;
+}
+
+section#visita {
+    background: #cdc8b1;
+    padding: 10px 27px 27px 27px;
+    margin-top: 10px;
+}
+
+section#galeria {
+    padding: 0px 20px 30px 20px;
+}
+
+section#galeria a {
+    display: block;
+    background: url(../img/fundo-foto.png) no-repeat;
+    float: left;
+    padding: 15px 15px 18px 15px;
+    margin: 10px 0 0 20px;
+}
+
+section#galeria img {
+    margin: 2.5px;
+}
+
+h4 {
+    color: #86521a;
+    text-transform: uppercase;
+    padding-bottom: 3px;
+    margin-bottom: 0;
+}
+
+/*Formulários 
+------------------------*/
+
+input {
+    height: 20px;
+    width: 80px;
+    background: #fff;
+    border: none;
+    font-size: 1em;
+}
+
+input.campo {
+    border: 1px solid #ada484;
+}
+
+input.botao {
+    background: #9b9271;
+    color: #fff;
+    width: 100%;
+    height: 40px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+fieldset {
+    border: none;
+}
+
+fieldset legend {
+    display: none;
 }
